@@ -9,13 +9,13 @@ Steps for Linear Regression
     * Check distributions of categorical variables - Box plots
         * Finds outliers
     * Create dummy variables for categorical columns - For linear models
-3. Train-test split
-4. Scaling
-5. Build model
-    sklearn.LinearRegression
-    statsmodels.OLS
-    Eliminate features with RFE
-    Drop variables with high VIF/high p-value
-6. Evaluate model
-    Perform predictions on the test data
-    Calculate R-squared based on predictions
+* Train-test split
+* Scaling
+* Build model
+    * sklearn.LinearRegression
+    * statsmodels.OLS
+    * Eliminate features with RFE
+    * Drop variables with high VIF/high p-value
+* Evaluate model
+    * Perform predictions on the test data
+    * Calculate R-squared based on predictions
